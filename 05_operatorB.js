@@ -1,24 +1,16 @@
 
 console.log("======================================Step 1 ============================");
 
-function greaterNumber(){
-   var a=10;
+function greaterNumber(a,b){
+  var greater=a>b ? ` ${a} is greater than ${b} ` :"is not grater than";
+console.log(greater);
 
-    var b=-10;
-     var gre =(a>b) ? a : b;
-     console.log(`Given No are a=10 ;b=-10`);
-    console.log(`The greatest number is =>${gre}`);
 
-    console.log("====================================== ============================");
-
-     var n1=800;
-     var n2=899;
-     var grea = (n1>n2)?n1:n2;
-     console.log(`Given No are n1=800 ;n2=899`);
-     console.log(`The greatest number is => ${grea}`);
 }
 
-greaterNumber()
+greaterNumber(10,-10);
+greaterNumber(800,899);
+
 
 console.log(("=====================================Step 2======================="));
 
