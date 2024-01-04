@@ -2,7 +2,8 @@
 console.log("======================================Step 1 ============================");
 
 function greaterNumber(a,b){
-  var greater=a>b ? ` ${a} is greater than ${b} ` :"is not grater than";
+    console.log(`Given Numbers are ${a},${b}`);
+  var greater =a>b ? ` ${a} is greater than number` :`${b} is grater than`;
 console.log(greater);
 
 
